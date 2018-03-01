@@ -245,7 +245,14 @@ header > nav ul > li > a:hover {
     display: block;
     
 }
+.awesome_descr {
+    padding: 5px 0;
+}
 
+.photo_coffee {
+    padding: 5px 20px;
+   
+}
 .awesome_p {
     text-align: left;
     line-height: 30px;
@@ -253,10 +260,14 @@ header > nav ul > li > a:hover {
 .coffee {
     width: 100%;
     height: 350px;
-    padding: 5px 0;
+    
+     border-radius: 5px;
 }
 .awesome {
     background: darkgray;
+}
+.awesome_h2 {
+    line-height: 30px;
 }
 .awesome_descr > h2 {
     text-transform: uppercase;
