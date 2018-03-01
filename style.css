@@ -160,15 +160,14 @@ header > nav ul > li > a:hover {
 
 
 .gallery1 {
-    margin: 10px auto;
+    margin: 10px 0;
 } 
 .gallery1_item {
     height: 400px;
-    
     position:relative;
     
 }
-.gallery_item > img{
+.gallery1_item > img{
     width:100%;
     height: 100%;
 }
@@ -203,9 +202,6 @@ header > nav ul > li > a:hover {
     border-radius: 10px;
 }
 
-
-
-
 .crew {
     margin: 10px 0;
     padding: 100px 5px 25px 5px;
@@ -220,7 +216,7 @@ header > nav ul > li > a:hover {
     padding: 10px 10px;
     width: 100%;
     height: 100%;
-    border-radius: 40%;
+    border-radius: 50%;
     transition: 0.3s;
     text-align: center;
 }
@@ -230,19 +226,24 @@ header > nav ul > li > a:hover {
     line-height: 50px;
     top:60px;
     text-transform: uppercase;
+    display: none;
+    color: whitesmoke;
+    font-weight:bold;
 }
-.descr_img1 > p {
-    display:none;
-}
+.descr_img2 {
+    font-size: 20px;
+    font-weight: 800;
 
-.img1:hover {
-    opacity:0.5;
-    cursor:pointer;
-    background-color: rgba(47, 54, 64,1.0);
 }
-.img1:hover .descr_img1 > p  {
+ 
+.crew_image:hover {
+    
+    cursor:pointer;
+    
+}
+.crew_photo:hover .descr_img1   {
     display: block;
-    color: white;
+    
 }
 
 .awesome_p {
@@ -250,9 +251,9 @@ header > nav ul > li > a:hover {
     line-height: 30px;
 }
 .coffee {
-    width: 300px;
-    height: 300px;
-    padding: 10px 0;
+    width: 100%;
+    height: 350px;
+    padding: 5px 0;
 }
 .awesome {
     background: darkgray;
@@ -263,7 +264,7 @@ header > nav ul > li > a:hover {
     color:white;
     font-weight: bold;
 }
-.awesome_descr > .awesome_p {
+.awesome_p {
     color:white;
     float: left;
   
